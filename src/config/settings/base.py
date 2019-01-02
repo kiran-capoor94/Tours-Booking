@@ -76,6 +76,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     'tours_booking_app.users.apps.UsersAppConfig',
     # Your stuff: custom apps go here
+    # 'tours_booking_app.profiles',
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

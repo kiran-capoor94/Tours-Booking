@@ -23,3 +23,13 @@ Download pipenv from pypi using pip.
 ```
 $ pip install pipenv
 ```
+
+Create a Virtual environment using pipenv.
+```
+$ pipenv --python 3.7
+```
+
+Install dependencies stated in the root folder of the project under requirements.txt file.
+```
+$ pipenv install -r requirements.txt
+```

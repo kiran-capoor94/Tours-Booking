@@ -33,3 +33,10 @@ Install dependencies stated in the root folder of the project under requirements
 ```
 $ pipenv install -r requirements.txt
 ```
+
+Test the project using Django's Runserver command
+```
+$ python manage.py runserver
+```
+
+For any further queries, mail at kiran.capoor94@gmail.com

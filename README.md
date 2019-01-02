@@ -30,7 +30,7 @@ Create a Virtual environment using pipenv.
 $ pipenv --python 3.7
 ```
 
-Install dependencies stated in the root folder of the project under requirements.txt file.
+Install dependencies stated in the local file in the root folder of the project under requirements folder.
 ```
 $ pipenv install -r requirements.txt
 ```

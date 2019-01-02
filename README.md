@@ -37,7 +37,8 @@ $ pipenv install -r requirements/local.txt
 
 Test the project using Django's Runserver command
 ```
-$ python manage.py runserver
+$ pipenv shell
+(env) $ python manage.py runserver
 ```
 
 For any further queries, mail at kiran.capoor94@gmail.com

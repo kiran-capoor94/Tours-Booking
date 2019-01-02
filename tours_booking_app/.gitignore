@@ -265,6 +265,19 @@ Session.vim
 tags
 
 
+### VirtualEnv template
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ss]cripts
+pyvenv.cfg
+pip-selfcheck.json
+.env
+
+
 ### Project template
 
 tours_booking_app/media/
@@ -272,7 +285,6 @@ tours_booking_app/media/
 .pytest_cache/
 
 
-.ipython/
 .env
 .envs/*
 !.envs/.local/

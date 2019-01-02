@@ -40,7 +40,7 @@ master_doc = "index"
 
 # General information about the project.
 project = "Tours Booking App"
-copyright = """2019, Kiran Capoor"""
+copyright = """2019, Daniel Roy Greenfeld"""
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -184,7 +184,7 @@ latex_documents = [
         "index",
         "tours_booking_app.tex",
         "Tours Booking App Documentation",
-        """Kiran Capoor""",
+        """Daniel Roy Greenfeld""",
         "manual",
     )
 ]
@@ -219,7 +219,7 @@ man_pages = [
         "index",
         "tours_booking_app",
         "Tours Booking App Documentation",
-        ["""Kiran Capoor"""],
+        ["""Daniel Roy Greenfeld"""],
         1,
     )
 ]
@@ -238,7 +238,7 @@ texinfo_documents = [
         "index",
         "tours_booking_app",
         "Tours Booking App Documentation",
-        """Kiran Capoor""",
+        """Daniel Roy Greenfeld""",
         "Tours Booking App",
         """Behold My Awesome Project!""",
         "Miscellaneous",

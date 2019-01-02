@@ -1,5 +1,7 @@
 # Tours Booking
 
+Simple Django based web app to create hotel and tour bookings.
+
 ## Requirements
 
 1. Python

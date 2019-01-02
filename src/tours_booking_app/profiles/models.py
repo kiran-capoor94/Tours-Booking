@@ -1,3 +1,8 @@
+"""
+Profile Model File to handle the profile fields and parameters.
+Using Primary Key as Identifier.
+"""
+
 from django.db import models
 from django.conf import settings
 from django.urls import reverse
@@ -16,6 +21,7 @@ GENDER = (
 class Profile(models.Model):
     user = models.ForeignKey(User, verbose_name=_("profile"), on_delete=models.CASCADE)
     gender = models.CharField(max_length=150, choices=GENDER, default='male')
+    # BUG: TextField doesn't have validations or filter.
     about_me = models.TextField()
     website = models.URLField(max_length=200, blank=True)
     created = models.DateTimeField(auto_now=True)
@@ -30,4 +36,5 @@ class Profile(models.Model):
         return self.user.username
 
     def get_absolute_url(self):
+        # TODO: Change to Slug.
         return reverse("Profile_detail", kwargs={"pk": self.pk})

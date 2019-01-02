@@ -2,7 +2,21 @@
 
 ## Requirements
 
-###P ipenv
+1. Python
+2. Django
+3. Pipenv
+4. django-allauth
+5. django-jet
+6. django-rest-framework
+7. django-environ
+8. cookiecutter
+
+### How to Contribute
+
+Clone this repository in your folder.
+```
+$ git clone https://github.com/kiran-capoor94/Tours-Booking
+```
 
 Download pipenv from pypi using pip.
 

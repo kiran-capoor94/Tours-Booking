@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=tours_booking_app
+POSTGRES_USER=dXgkVppuGxBpacfebxnxfGipLfTPmiwL
+POSTGRES_PASSWORD=cACxFIqyGYKM15xoiqC4mpG4sWQkm0BZh32ACuUoWlw5gF93C8g9mcKgdydT93YH

@@ -21,7 +21,6 @@ $ git clone https://github.com/kiran-capoor94/Tours-Booking
 ```
 
 Download pipenv from pypi using pip.
-
 ```
 $ pip install pipenv
 ```
